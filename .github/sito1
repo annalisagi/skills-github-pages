@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoPanels - Sustainable Solutions</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        nav {
+            background-color: #333;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.8rem 1.5rem;
+            display: block;
+        }
+
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+
+        .hero {
+            background-image: url('https://example.com/eco_panels_image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+        }
+
+        .hero h2 {
+            font-size: 3rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+        }
+
+        .content {
+            padding: 2rem;
+        }
+
+        .content h3 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+
+        .content p {
+            line-height: 1.6;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+
+        .feature {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(30% - 1rem);
+            text-align: center;
+        }
+
+        .feature h4 {
+            margin-bottom: 0.5rem;
+        }
+
+        .feature img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        @media (max-width: 768px) {
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .features {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>EcoPanels</h1>
+        <p>Your Partner in Sustainable Solutions</p>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#services">Our Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="hero">
+        <h2>Building a Greener Future Together</h2>
+    </section>
+    <main class="content">
+        <section id="about">
+            <h3>About EcoPanels</h3>
+            <p>EcoPanels is dedicated to providing high-quality, sustainable building solutions that reduce environmental impact while delivering exceptional performance. Our products include eco-friendly panels for insulation, energy-efficient construction materials, and much more.</p>
+        </section>
+        <section id="services">
+            <h3>Our Services</h3>
+            <div class="features">
+                <div class="feature">
+                    <img src="https://example.com/solar_panels.jpg" alt="Solar Panels">
+                    <h4>Solar Panels</h4>
+                    <p>High-efficiency solar panels to power your home or business sustainably.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://example.com/insulation.jpg" alt="Insulation Panels">
+                    <h4>Insulation Panels</h4>
+                    <p>Eco-friendly insulation panels for energy-efficient buildings.</p>
+                </div>
+                <div class="feature">
+                    <img src="https://example.com/green_building.jpg" alt="Green Building Solutions">
+                    <h4>Green Building Solutions</h4>
+                    <p>Innovative solutions for sustainable and environmentally friendly construction.</p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h3>Contact Us</h3>
+            <p>Email: info@ecopanels.com | Phone: +1-234-567-8900</p>
+            <p>Address: 123 Greenway Blvd, Sustainability City, Earth</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EcoPanels. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
